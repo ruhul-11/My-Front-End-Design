@@ -1,0 +1,966 @@
+@media(max-width:575px) {
+    
+    /* Navbar CSS Start */
+    .full_nav {
+        padding: 15px 0!important;
+    }
+    .navbar-toggler {
+        position: relative;
+        float: right;
+        padding: 9px 10px;
+        margin: 10px 30px 10px 0;
+        background-color: transparent;
+        background-image: none;
+        border-radius: 4px;
+        background-color: #fff;
+        transition: all 0.4s linear;
+    }
+    .navbar-toggler:hover {
+        background-color: #fec600;
+    }
+    .mr-y-5 {
+        margin: 5px 0;
+    }
+    .navbar-brand {
+        padding-left: 30px;
+        transition: all 0.4s linear;
+    }
+    .sticky {
+        padding: 10px 0!important;
+    }
+    .sticky .navbar-brand {
+        padding-left: 15px;
+        transition: all 1s linear;
+    }
+    .sticky .navbar-toggler {
+        margin-right: 15px;
+        transition: all 0.4s linear;
+    }
+    .navbar-toggler .icon-bar {
+        background: #222222;
+        display: block;
+        width: 22px;
+        height: 2px;
+        border-radius: 1px;             
+    }
+    .sticky .nav-text .nav-item .nav-link::before {
+        bottom: 0;
+    }
+    .nav-text .nav-item .nav-link {
+        text-align: center;
+        padding: 5px 0;
+        margin: 0;
+        background-color: #222222;
+    }
+    .nav-text .nav-item .nav-link:before {
+        width: 35px;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 99;
+    }
+    .sticky:hover .nav-text .nav-item .nav-link:before {
+        bottom: 0;
+    }
+    /* Navbar CSS End */
+
+    /* Banner CSS Start */
+    .banner-text h2 {
+        font-size: 30px;
+    }
+    .banner-text h3 {
+        font-size: 45px;
+    }
+    .banner-text p {
+        width: 90%;
+    }
+    .prev_arrow {
+        top: 58%;
+        z-index: 20;
+    }
+    .next_arrow {
+        top: 58%;
+        z-index: 20;
+    }
+    .banner-text {
+        padding-top: 160px;
+    }
+    .banner-text a {
+        width: 115px;
+        padding: 15px 10px;
+        font-size: 16px;
+        margin: 80px 10px 0 10px;
+    }
+    .banner-slider-1 {
+        height: 70vh;
+    }
+    .banner-slider-2 {
+        height: 70vh;
+    }
+    .banner-slider-3 {
+        height: 70vh;
+    }
+
+    /* About CSS */
+    #about_us {
+        height: 1400px;
+        padding-bottom: 20px;
+    }
+    .section-heading p {
+        width: 100%;
+    }
+    .main-circle {
+        height: 200px;
+        width: 200px;
+        margin-top: 40px;
+    }
+    .about-circle {
+        width: 180px;
+        height: 180px;
+        margin-top: 9px;
+    }
+    .about-top {
+        width: 280px;
+        top: 55%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .about-top:before {
+        display: none;
+    }
+    .about-top:after {
+        display: none;
+    }
+    .about-left {
+        width: 280px;
+        top: 105%;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center!important;
+    }
+    .about-left:before {
+        display: none;
+    }
+    .about-left:after {
+        display: none;
+    }
+    .about-right {
+        width: 280px;
+        top: 155%;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center!important;
+    }
+    .about-right:before {
+        display: none;
+    }
+    .about-right:after {
+        display: none;
+    }
+    .about-bottom {
+        width: 280px;
+        left: 50%;
+        bottom: -149%;
+        transform: translateX(-50%);
+    }
+    .about-bottom:before {
+        display: none;
+    }
+    .about-bottom:after {
+        display: none;
+    }
+
+    /* Service Part Start */
+    #service {
+        padding: 30px 0;
+    }
+    .service-web {
+        margin: 4px 0 2px 0;
+    }
+    .service-text {
+        padding: 20px 20px;
+        text-align: center!important;
+        margin-top: 10px;
+        z-index: 1;
+    }
+    .service-text:after {
+        top: -6%;
+        left: 43.5%;
+        z-index: -1;
+    }
+    .service-slider:after {
+        display: none;
+    }
+    .service-web h3 {
+        text-align: center !important;
+    }
+    .service-dev h3 {
+        text-align: center !important;
+    }
+    
+    .service_img_1, .service_img_2 {
+        margin: 20px 0 30px 0;
+    }
+    .service-down-arrow {
+        bottom: -15px;
+    }
+    .dev-text {
+        padding: 20px 20px;
+        margin: 10px 0 0 0;
+        z-index: 1;
+    }
+    .dev-text:after {
+        top: -6%;
+        left: 43.5%;
+        z-index: -1;
+    }
+    .service-dev {
+        margin: 4px 0 2px 0;
+    }
+    .dev-inner-text {
+        order: 2;
+    }
+    .dev-icon {
+        order: 1;
+    }
+    .dev-title {
+        order: 0;
+    }
+    .mr-both-3 {
+        margin: 16px 0!important;
+    }
+    .mr-tp-35 {
+        margin-top: 16px 0 20px 0!important;
+    }
+    .bt-10 {
+        margin-bottom: 10px;
+    }
+
+    /* Testimonial Part CSS */
+    #testimonial {
+        padding-bottom: 0;
+    }
+    .testimonial-slider::after {
+        display: none;
+    }
+    .testimonial-slider {
+        display: flex;
+        height: 250px;
+        margin-top: 10px;
+    }
+    
+    .testimonial-slider .slick-track .test-img {
+        width: 80px!important;
+        height: 80px;
+        margin-left: 7%;
+        margin-top: 82px;
+    }
+    .testimonial-up-arrow {
+        left: 50%;
+    }
+    .testimonial-down-arrow {
+        left: 50%;
+    }
+    .testimonial-details::after {
+        display: none;
+    }
+    .test-details-slide {
+        margin-top: 0;
+    }
+    .testimonial-details {
+        margin-left: 0;
+        margin-top: 40px;
+        padding: 20px 15px 20px 15px;
+    }
+
+    /* Pricing Plan */
+    #pricing_plan {
+        padding: 20px 0 20px 0;
+    }
+    .mr-top {
+        margin-top: 20px;
+    }
+    .price-body {
+        margin-top: 20px
+    }
+     /* Counter CSS */
+     #counter {
+        padding: 60px 0;
+    }
+    .counter_rotate {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .counter-main {
+        width: 130px;
+        margin-left: 13px;
+    }
+
+    /* Team CSS */
+    #team {
+        padding-bottom: 5px;
+    }
+
+    /* Market Logo CSS */
+    #market-logo {
+        padding: 60px 0;
+    }
+    .logo-slider {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .market-main {
+        margin-left: 40px;
+    }
+
+    /* Footer CSS */
+    #contact_us {
+        padding-bottom: 0;
+    }
+    .footer-logo img {
+        display: block;
+    }
+    .footer-logo * {
+        margin: auto;
+    }
+    .footer-content i {
+        margin-top: 40px;
+        margin-bottom: 10px;
+    }
+    .footer-copyright p, .footer-copyright a {
+        font-size: 13px;
+    }
+    .footer-social i {
+        margin-bottom: 40px;
+    }
+    .top-btn {
+        bottom: 50px;
+    }
+}
+    
+
+@media(min-width:576px) and (max-width:767px) {
+     /* Navbar CSS Start */
+    .full_nav {
+        padding: 15px 0!important;
+    }
+    .navbar-toggler {
+        position: relative;
+        float: right;
+        padding: 9px 10px;
+        margin: 10px 30px 10px 0;
+        background-color: transparent;
+        background-image: none;
+        border-radius: 4px;
+        background-color: #fff;
+        transition: all 0.4s linear;
+    }
+    .navbar-toggler:hover {
+        background-color: #fec600;
+    }
+    .mr-y-5 {
+        margin: 5px 0;
+    }
+    .navbar-brand {
+        padding-left: 30px;
+        transition: all 0.4s linear;
+    }
+    .sticky {
+        padding: 10px 0!important;
+    }
+    .sticky .navbar-toggler {
+        margin-right: 15px;
+        transition: all 0.4s linear;
+    }
+    .navbar-toggler .icon-bar {
+        background: #222222;
+        display: block;
+        width: 22px;
+        height: 2px;
+        border-radius: 1px;             
+    }
+    .nav-text .nav-item .nav-link {
+        text-align: center;
+        padding: 5px 0;
+        margin: 0;
+        background-color: #222222;
+    }
+    .nav-text .nav-item .nav-link:before {
+        width: 35px;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 99;
+    }
+    .sticky .nav-text .nav-item .nav-link::before {
+        bottom: 0;
+    }
+    .sticky:hover .nav-text .nav-item .nav-link:before {
+        bottom: 0;
+    }
+    /* Navbar CSS End */
+
+    /* Banner CSS Start */
+    .banner-text h2 {
+        font-size: 30px;
+    }
+    .banner-text h3 {
+        font-size: 45px;
+    }
+    .banner-text p {
+        width: 90%;
+    }
+    .prev_arrow {
+        top: 67%;
+        z-index: 20;
+    }
+    .next_arrow {
+        top: 67%;
+        z-index: 20;
+    }
+    .banner-text {
+        padding-top: 200px;
+    }
+    .banner-text a {
+        width: 115px;
+        padding: 12px 10px;
+        font-size: 16px;
+        margin: 80px 10px 0 10px;
+    }
+    .banner-slider-1 {
+        height: 75vh;
+    }
+    .banner-slider-2 {
+        height: 75vh;
+    }
+    .banner-slider-3 {
+        height: 75vh;
+    }
+
+    /* About CSS */
+    #about_us {
+        height: 1400px;
+        padding-bottom: 20px;
+    }
+    .section-heading p {
+        width: 100%;
+    }
+    .main-circle {
+        height: 200px;
+        width: 200px;
+        margin-top: 40px;
+    }
+    .about-circle {
+        width: 180px;
+        height: 180px;
+        margin-top: 9px;
+    }
+    .about-top {
+        width: 280px;
+        top: 55%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .about-top:before {
+        display: none;
+    }
+    .about-top:after {
+        display: none;
+    }
+    .about-left {
+        width: 280px;
+        top: 105%;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center!important;
+    }
+    .about-left:before {
+        display: none;
+    }
+    .about-left:after {
+        display: none;
+    }
+    .about-right {
+        width: 280px;
+        top: 155%;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center!important;
+    }
+    .about-right:before {
+        display: none;
+    }
+    .about-right:after {
+        display: none;
+    }
+    .about-bottom {
+        width: 280px;
+        bottom: -149%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .about-bottom:before {
+        display: none;
+    }
+    .about-bottom:after {
+        display: none;
+    }
+
+    /* Service Part Start */
+    #service {
+        padding: 30px 0;
+    }
+    .service-web {
+        margin: 4px 0 2px 0;
+    }
+    .service-text {
+        padding: 20px 20px;
+        text-align: center!important;
+        margin-top: 10px;
+        z-index: 1;
+    }
+    .service-text:after {
+        top: -10%;
+        left: 46.5%;
+        z-index: -1;
+    }
+    .service-slider:after {
+        display: none;
+    }
+    .service-web h3 {
+        text-align: center !important;
+    }
+    .service-dev h3 {
+        text-align: center !important;
+    }
+    
+    .service_img_1, .service_img_2 {
+        margin: 20px 0 30px 0;
+    }
+    .service-down-arrow {
+        bottom: -15px;
+    }
+    .dev-text {
+        padding: 20px 20px;
+        margin: 10px 0 0 0;
+        z-index: 1;
+    }
+    .dev-text:after {
+        top: -10%;
+        left: 46.5%;
+        z-index: -1;
+    }
+    .service-dev {
+        margin: 4px 0 2px 0;
+    }
+    .dev-inner-text {
+        order: 2;
+    }
+    .dev-icon {
+        order: 1;
+    }
+    .dev-title {
+        order: 0;
+    }
+    .mr-both-3 {
+        margin: 16px 0!important;
+    }
+    .mr-tp-35 {
+        margin-top: 16px 0 20px 0!important;
+    }
+    .bt-10 {
+        margin-bottom: 10px;
+    }
+
+    /* Testimonial Part CSS */
+    .testimonial-slider::after {
+        display: none;
+    }
+    .testimonial-slider {
+        display: flex;
+        height: 300px;
+        margin-top: 10px;
+    }
+    .test-img {
+        width: 100px!important;
+        height: 100px;
+    }
+    .testimonial-slider .slick-track .test-img {
+        width: 100px!important;
+        height: 100px;
+        margin-left: 17%;
+        margin-top: 100px;
+    }
+    .testimonial-up-arrow {
+        left: 49%;
+    }
+    .testimonial-down-arrow {
+        left: 49%;
+    }
+    .testimonial-details::after {
+        display: none;
+    }
+    .test-details-slide {
+        margin-top: 0;
+    }
+    .testimonial-details {
+        margin-left: 0;
+        margin-top: 40px;
+        padding: 20px 15px 20px 15px;
+    }
+
+    /* Pricing Plan */
+    #pricing_plan {
+        padding: 20px 0 20px 0;
+    }
+    .mr-top {
+        margin-top: 20px;
+    }
+    .price-body {
+        margin-top: 20px
+    }
+
+    /* Counter CSS */
+    #counter {
+        padding: 60px 0;
+    }
+    .counter_rotate {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .counter-main {
+        width: 130px;
+        margin-left: 13px;
+    }
+
+    /* Team CSS */
+    #team {
+        padding-bottom: 5px;
+    }
+    .slick-slide .slick-current .slick-active .team-wrap * {
+        margin: auto;
+    }
+
+    /* Market Logo CSS */
+    #market-logo {
+        padding: 60px 0;
+    }
+    .logo-slider {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .market-main {
+        width: 150px!important;
+        margin-left: 13px;
+    }
+    .market-logo img {
+        width: 80%;
+    }
+
+    /* Footer CSS */
+    #contact_us {
+        padding-bottom: 0;
+    }
+    .footer-logo img {
+        display: block;
+    }
+    .footer-logo * {
+        margin: auto;
+    }
+    .footer-content i {
+        margin-top: 40px;
+        margin-bottom: 10px;
+    }
+    
+
+}
+   
+
+@media(min-width:768px) and (max-width:991px) {
+    .full_nav {
+        padding: 20px 0!important;
+    }
+    .sticky {
+        padding: 10px 0!important;
+    }
+    .nav-text .nav-item .nav-link {
+        font-size: 12px;
+        font-weight: 400;
+        margin: 0 6px;
+    }
+    .nav-text .nav-item .nav-link:before {
+        bottom: -38px;
+    }
+    .sticky .nav-text .nav-item .nav-link::before {
+        bottom: -27px;
+    }
+    .sticky:hover .nav-text .nav-item .nav-link::before {
+        bottom: -27px;
+    }
+    .full_nav .container {
+        padding: 0;
+    }
+    .navbar-brand {
+        margin-right: 0;
+    }
+    .navbar-brand img {
+        width: 78%;
+    }
+
+    /* Banner CSS Start */
+    .banner-text {
+        padding-top: 325px;
+    }
+    .banner-text p {
+        width: 85%;
+    }
+
+    /* About CSS */
+    #about_us {
+        padding-bottom: 20px;
+    }
+    .section-heading p {
+        width: 85%;
+    }
+    .about-top {
+        width: 250px;
+        top: 79px;
+        left: 32.5%;
+        padding: 18px;
+    }
+    .about-top:before {
+        height: 15px;
+        width: 15px;
+        right: -23px;
+    }
+    .about-top:after {
+        height: 30px;
+        width: 30px;
+        left: 45%;
+    }
+    .about-left {
+        width: 250px;
+        left: 3px;
+        top: 41%;
+        padding: 18px;
+    }
+    .about-left:before {
+        height: 15px;
+        width: 15px;
+        right: -40px;
+    }
+    .about-left:after {
+        height: 30px;
+        width: 30px;
+        top: 42%;
+    }
+    .about-right {
+        width: 250px;
+        right: 3px;
+        top: 41%;
+        padding: 18px;
+    }
+    .about-right:before {
+        height: 15px;
+        width: 15px;
+        left: -40px;
+    }
+    .about-right:after {
+        height: 30px;
+        width: 30px;
+        top: 42%;
+    }
+    .about-bottom {
+        width: 250px;
+        bottom: 17px;
+        left: 32.5%;
+        padding: 18px;
+    }
+    .about-bottom:before {
+        height: 15px;
+        width: 15px;
+        right: -23px;
+    }
+    .about-bottom:after {
+        height: 30px;
+        width: 30px;
+        left: 46%;
+    }
+    .main-circle {
+        height: 150px;
+        width: 150px;
+    }
+    .about-circle {
+        height: 130px;
+        width: 130px;
+        margin-top: 10px;
+    }
+
+    /* Service Part Start */
+    #service {
+        padding: 0;
+    }
+    .dev-text {
+        padding: 20px 20px;
+    }
+    .service-text {
+        padding: 20px 20px;
+    }
+
+    /* Testimonial Part CSS */
+    .testimonial-details {
+        margin-top: 84px;
+    }
+    .testimonial-slider::after {
+        left: 44%;
+    }
+    .testimonial-up-arrow {
+        left: 44%;
+    }
+    .testimonial-down-arrow {
+        left: 44%;
+    }
+
+    /* Pricing Plan */
+    .price-text p {
+        margin-bottom: 5px;
+    }
+    .price-text {
+        margin-top: 10px;
+    }
+    .price-head h2 {
+        padding-top: 20px;
+    }
+
+    /* Counter CSS */
+    #counter {
+        padding: 60px 0;
+    }
+    .counter-main {
+        width: 130px;
+        margin-left: 13px;
+    }
+
+    /* Team CSS */
+    .social-icon i {
+        margin: 0 5px;
+    }
+
+    /* Market Logo CSS */
+    .logo-slider {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .market-main {
+        width: 120px!important;
+        margin-left: 13px;
+    }
+    .market-logo img {
+        width: 80%;
+    }
+
+    /* Footer CSS */
+    #contact_us {
+        padding-bottom: 0; 
+    }
+    .footer-content i {
+        margin: 40px 0 10px 0;
+    }
+    .right-border {
+        border-color: transparent;
+    }
+    
+    
+}
+   
+
+@media(min-width:992px) and (max-width:1199px) {
+    /* Navbar CSS */
+    .full_nav {
+        padding: 20px 0!important;
+    }
+    .sticky {
+        padding: 10px 0!important;
+    }
+    .nav-text .nav-item .nav-link {
+        font-size: 14px;
+        font-weight: 400;
+        margin: 0 10px;
+    }
+    .nav-text .nav-item .nav-link:before {
+        bottom: -42px;
+    }
+    .sticky .nav-text .nav-item .nav-link::before {
+        bottom: -31px;
+    }
+    .sticky:hover .nav-text .nav-item .nav-link::before {
+        bottom: -31px;
+    }
+
+    /* Banner CSS */
+    .banner-text {
+        padding-top: 340px;
+    }
+    .banner-text p {
+        width: 65%;
+    }
+
+    /* About CSS */
+    #about_us {
+        padding-bottom: 30px;
+    }
+    .section-heading p {
+        width: 85%;
+    }
+    .about-top {
+        width: 300px;
+        top: 50px;
+    }
+    .about-left {
+        width: 300px;
+        left: 24px;
+        top: 40.5%;
+    }
+    .about-right {
+        width: 300px;
+        right: 24px;
+        top: 40.5%;
+    }
+    .about-bottom {
+        width: 300px;
+        bottom: -11px;
+    }
+    .main-circle {
+        height: 240px;
+        width: 240px;
+    }
+    .about-circle {
+        height: 215px;
+        width: 215px;
+        margin-top: 12.5px;
+    }
+
+    /* Testimonial Part CSS */
+    .testimonial-slider::after {
+        left: 48%;
+    }
+    .testimonial-up-arrow {
+        left: 48%;
+    }
+    .testimonial-down-arrow {
+        left: 48%;
+    }
+    .testimonial-details::after {
+        top: 44%;
+    }
+
+    /* Counter CSS */
+    .counter-main {
+        width: 170px;
+    }
+
+    /* Market Logo CSS */
+    .market-main {
+        width: 170px!important;
+    }
+}
